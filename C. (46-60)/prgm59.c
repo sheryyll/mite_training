@@ -1,8 +1,8 @@
 // Print pattern using increasing alphabets.
 #include <stdio.h>
 
-int main() {
-    int i, j, n = 5;
+int main(void) {
+    int i, j, n;
     
     // read input
     printf("Enter size: ");

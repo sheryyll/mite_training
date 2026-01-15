@@ -1,7 +1,7 @@
 // Print a pattern of alternate 1s and 0s
 #include <stdio.h>
 
-int main() {
+int main(void) {
     int i, j, n;
     
     // read input

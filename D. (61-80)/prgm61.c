@@ -13,11 +13,6 @@ int main(void) {
         return 1;
     }
 
-    printf("Enter array elements: ");
-    for (i = 0; i < n; i++) {
-        scanf("%d", &arr[i]);
-    }
-
     // print result
     printf("Array elements:\n");
     for (i = 0; i < n; i++) {

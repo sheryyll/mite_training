@@ -1,7 +1,7 @@
 // Print a number pyramid (palindrome).
 #include <stdio.h>
 
-int main() {
+int main(void) {
     int i, j, n;
     
     // read input

@@ -15,7 +15,7 @@ int main(void){
     larger = (num1 + num2 + abs(num1 - num2 )) / 2;
 
     // print result
-    printf("The larger number is: %s\n", larger);
+    printf("The larger number is: %d\n", larger);
 
     return 0;
 }
