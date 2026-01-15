@@ -1,0 +1,33 @@
+// Print a diamond pattern.
+#include<stdio.h>
+
+int main(void) {
+    int i, j, k, n;
+
+    // read input
+    printf("Enter size: ");
+    scanf("%d", &n);
+
+    // print upper half triangle
+    for(i = 1; i <= n; i++){
+        for(j = 1; j <= n - i; j++){
+            printf(" ");
+        }
+        for(k = 1; k <= 2*i - 1; k++){
+            printf("*");
+        }
+        printf("\n");
+    }
+    // print lower half triangle
+    for(i = n-1; i >= 1; i--){
+        for(j = 1; j <= n - i; j++){
+            printf(" ");
+        }
+        for(k = 1; k <= 2*i - 1; k++){
+            printf("*");
+        }
+        printf("\n");
+    }
+    
+    return 0;
+}
