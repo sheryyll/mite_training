@@ -1,0 +1,14 @@
+# Executables
+*.exe
+
+# Object files
+*.o
+
+# Output files
+*.out
+
+# Debug files
+*.log
+
+# Build directories
+build/
